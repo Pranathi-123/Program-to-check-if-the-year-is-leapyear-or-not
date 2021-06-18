@@ -1,0 +1,12 @@
+#Program to check leap year
+year = int(input("The year to test:"))
+if year%4==0:
+    if year%100==0:
+        if year%400==0:
+            print("YES")
+        else:
+            print("NOS")
+    else:
+        print("YES")
+else:
+    print("NO")
